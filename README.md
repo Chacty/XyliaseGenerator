@@ -8,7 +8,7 @@ v3.1.13
 Goto Releases
 
 ## Notes
-This is a repost and was not made by me. (Chacty)
+This is a repost and was not made by me. (Chacty) (By Rickyf)
 
 ## How to use it?
 Click "Releases" and download it. 
