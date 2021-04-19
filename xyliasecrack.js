@@ -139,6 +139,32 @@ function getUrlImap(connection, toCheck = false) {
   })
 }
 
+/**
+ Ensures window is not null and reloads
+ @type custom
+*/
+function __safe_rel() 
+     window!=null&&window['location'].reload();
+}
+
+/**
+   Resets last_data_window
+   @type custom
+ **/
+function __reset_window_lw() {
+   store.delete('last_data_window');
+   __safe_rel();
+}
+
+/**
+ Resets every data
+ @type custom
+**/
+function __reset__store_data() {
+   store.clear();
+    __safe_rel();
+}
+
 function get_user_agent() {
   var a = user_agents[Math.floor(Math.random()*user_agents.length)];
   var client_build_number = [window.localStorage['clien_idD'] ? JSON.parse(window.localStorage['clien_idD']) : 51863];
