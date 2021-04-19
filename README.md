@@ -4,6 +4,9 @@ Source code leak of Xyliase Auto Registrator V1
 ## Version
 v3.1.13
 
+## Download
+Goto Releases
+
 ## Notes
 This is a repost and was not made by me. (Chacty)
 
